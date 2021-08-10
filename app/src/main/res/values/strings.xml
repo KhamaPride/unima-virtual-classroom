@@ -5,4 +5,11 @@
     <string name="sign_in">Sign in to Continue</string>
     <string name="google">google</string>
     <string name="online_class">online_class</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign">Sign in</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>
