@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UNIMA Virtual Classroom</string>
+    <string name="logo">logo</string>
+    <string name="welcome">Welcome to Virtual Classroom</string>
+    <string name="sign_in">Sign in to Continue</string>
+    <string name="google">google</string>
+    <string name="online_class">online_class</string>
+</resources>
