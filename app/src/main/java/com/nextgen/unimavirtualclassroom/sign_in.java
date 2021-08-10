@@ -1,14 +1,19 @@
 package com.nextgen.unimavirtualclassroom;
 
-import android.content.Intent;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-import static java.lang.Thread.sleep;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 
 public class sign_in extends AppCompatActivity {
+
+    TabLayout tabLayout;
+    ViewPager viewPager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +23,14 @@ public class sign_in extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_sign_in);
 
+        tabLayout = findViewById(R.id.tab_layout);
+        viewPager = findViewById(R.id.view_pager);
+
+        tabLayout.addTab(tabLayout.newTab().setText("Sign in"));
+        tabLayout.addTab(tabLayout.newTab().setText("Sign Up"));
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
     }
-
-
-
-        }
+}
 
 
